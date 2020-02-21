@@ -15,8 +15,8 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 #Change theme to powerlevel9k
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel9k\/powerlevel9k"/g' .zshrc
 
-#Override 256 Color Error
-sed -i '1i#Ignore 256 Color Error\nexport TERM="xterm-256color"\n' .zshrc
+#Override 256 Color Error & Set Locale
+sed -i '1i#Ignore 256 Color Error\nexport TERM="xterm-256color"\n\n#Set Locale\nexport LC_ALL=en_US.UTF-8\nexport LANG=en_US.UTF-8\n' .zshrc
 
 #change shell
 chsh -s /bin/zsh
