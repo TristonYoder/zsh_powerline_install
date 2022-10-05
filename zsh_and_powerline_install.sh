@@ -4,8 +4,8 @@ sudo apt-get update
 sudo apt upgrade
 
 #install everything
-sudo apt install zsh
-sudo apt-get install powerline fonts-powerline
+sudo apt install zsh -y
+sudo apt-get install powerline fonts-powerline -y
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
