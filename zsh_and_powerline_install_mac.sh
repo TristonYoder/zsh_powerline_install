@@ -19,7 +19,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
 
 #get config
-sudo wget https://raw.githubusercontent.com/TristonYoder/zsh_powerline_install/master/.zshrc -P ~/
+curl https://raw.githubusercontent.com/TristonYoder/zsh_powerline_install/master/.zshrc -o ~/.zshrc
 
 #change shell
 chsh -s /bin/zsh
